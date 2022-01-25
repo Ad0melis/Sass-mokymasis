@@ -1,0 +1,68 @@
+.button, .container section ul li a {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #000;
+  background-color: red;
+}
+
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  background-color: #C6D4FF;
+  border-radius: 10px;
+  border-style: solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container section {
+  color: #7A82AB;
+  width: 80vw;
+  background-color: #307473;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container section h2 {
+  text-align: center;
+  border-radius: 20px;
+  border-style: dotted;
+}
+
+.container section ul li {
+  margin: 1.5rem;
+}
+
+.container section ul li a {
+  color: #7A82AB;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.container section ul li a:hover {
+  background-color: #307473;
+}
+
+.container section ul li span {
+  margin-left: 3rem;
+}
+/*# sourceMappingURL=style.css.map */

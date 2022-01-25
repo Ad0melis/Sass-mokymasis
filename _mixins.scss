@@ -1,0 +1,10 @@
+@mixin collBorder($radius,$style){
+    border-radius: $radius;
+    border-style: $style;
+}
+
+@mixin coolCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

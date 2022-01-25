@@ -1,0 +1,41 @@
+@import 'var', 'mixins', 'components';
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    background-color: $myBG;
+    
+    @include collBorder(10px, solid);
+    @include coolCenter;
+    section{
+        color: $myFont;
+        width: 80vw;
+        background-color: $linkColor;    
+        @include coolCenter;
+        h2{
+            text-align: center;
+            @include collBorder(20px, dotted)
+        }
+        ul{
+            li{
+                margin: 1.5rem;
+                a{
+                    @extend .button;
+                    color: $myFont;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    &:hover{
+                        background-color: $linkColor;
+                    }
+                }
+
+                span{
+                    margin-left: 3rem;
+                }
+            }
+        }
+    }
+}
